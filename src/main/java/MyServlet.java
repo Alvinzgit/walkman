@@ -25,6 +25,6 @@ public class MyServlet extends HttpServlet {
         resp.setContentType("text/html; charset=utf-8");
         //添加上面这行才会解析html代码，显示Get()请求成功！的加粗模式，否则不会解析html代码，直接显示html标签
         PrintWriter out = resp.getWriter();
-        out.println("<strong>Post()请求成功!</strong><br/>");
+        out.println("<strong>Post()请求成功!!</strong><br/>");
     }
 }
